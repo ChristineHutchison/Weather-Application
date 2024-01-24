@@ -3,7 +3,7 @@ body {
 	font-family: "Inter", sans-serif;
 }
 .weather-app {
-	background-color: rgb(216, 252, 242);
+	background-color: RGB(171 246 225);
 	max-width: 700px;
 	max-height: 800px;
 	margin: 50px auto;
@@ -13,7 +13,7 @@ body {
 }
 header {
 	border-bottom: 1px solid #f5f5f5;
-	padding: 20px;
+	padding: 30px;
 }
 .search-form-input {
 	background-color: #f5f5f5;
@@ -34,9 +34,25 @@ header {
 	font-size: 16px;
 	box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
 }
+.todays-weather {
+	display: flex;
+	justify-content: space-between;
+}
+.weather-app-city {
+}
+.todays-weather-data {
+}
+.todays-weather-temperature {
+}
+main {
+	padding: 20px 0;
+}
 footer {
 	border-top: 1px solid #f5f5f5;
-	padding: 30px 0 0 0;
+	padding: 10px 0 0 0;
 	text-align: center;
 	font-size: 12px;
+}
+a {
+	color: teal;
 }
