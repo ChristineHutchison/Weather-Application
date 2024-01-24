@@ -6,86 +6,105 @@
 			name="viewport"
 			content="width=device-width, initial-scale=1.0"
 		/>
+		<link
+			rel="stylesheet"
+			href="src/index.css"
+		/>
+		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com"
+		/>
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+			rel="stylesheet"
+		/>
 		<title>Weather Forecast</title>
 	</head>
 	<body>
-		<header>
-			<form>
-				<input
-					type="search"
-					placeholder="Enter a city..."
-					required
-				/>
-				<input
-					type="submit"
-					value="Search"
-				/>
-			</form>
-		</header>
-		<main>
-			<div>
-				<h1>London</h1>
-				<p>
-					Tuesday 20:41, overcast clouds
-					<br />
-					Humidity: 93%, Wind: 8.23km/h
-				</p>
-			</div>
-			<div>🌤 12°C</div>
-			<div>
-				<ul>
-					<li>
-						Wed <br />
-						⛅ <br />
-						11° <br />
-						5° <br />
-					</li>
-					<li>
-						Thu <br />
-						🌧 <br />
-						12° <br />
-						5° <br />
-					</li>
-					<li>
-						Fri <br />
-						☁ <br />
-						11° <br />
-						6° <br />
-					</li>
-					<li>
-						Sat <br />
-						⛅ <br />
-						13° <br />
-						5° <br />
-					</li>
-					<li>
-						Sun <br />
-						☁ <br />
-						14° <br />
-						5° <br />
-					</li>
-				</ul>
-			</div>
-		</main>
+		<div class="weather-app">
+			<header>
+				<form>
+					<input
+						type="search"
+						placeholder="Enter a city..."
+						required
+					/>
+					<input
+						type="submit"
+						value="Search"
+					/>
+				</form>
+			</header>
+			<main>
+				<div>
+					<h1>London</h1>
+					<p>
+						Tuesday 20:41, overcast clouds
+						<br />
+						Humidity: 93%, Wind: 8.23km/h
+					</p>
+				</div>
+				<div>🌤 12°C</div>
+				<div>
+					<ul>
+						<li>
+							Wed <br />
+							⛅ <br />
+							11° <br />
+							5° <br />
+						</li>
+						<li>
+							Thu <br />
+							🌧 <br />
+							12° <br />
+							5° <br />
+						</li>
+						<li>
+							Fri <br />
+							☁ <br />
+							11° <br />
+							6° <br />
+						</li>
+						<li>
+							Sat <br />
+							⛅ <br />
+							13° <br />
+							5° <br />
+						</li>
+						<li>
+							Sun <br />
+							☁ <br />
+							14° <br />
+							5° <br />
+						</li>
+					</ul>
+				</div>
+			</main>
 
-		<footer>
-			Coded by
-			<a
-				href="https://github.com/ChristineHutchison"
-				target="_blank"
-				>Christine Hutchison</a
-			>. is open-sourced on
-			<a
-				href="https://github.com/ChristineHutchison/Weather-Application"
-				target="_blank"
-				>Github</a
-			>
-			and hosted on
-			<a
-				href="https://christine-weather-forecast.netlify.app/"
-				target="_blank"
-				>Netlify</a
-			>.
-		</footer>
+			<footer>
+				Coded by
+				<a
+					href="https://github.com/ChristineHutchison"
+					target="_blank"
+					>Christine Hutchison</a
+				>. Open-sourced on
+				<a
+					href="https://github.com/ChristineHutchison/Weather-Application"
+					target="_blank"
+					>Github</a
+				>
+				and hosted on
+				<a
+					href="https://christine-weather-forecast.netlify.app/"
+					target="_blank"
+					>Netlify</a
+				>.
+			</footer>
+		</div>
 	</body>
 </html>
