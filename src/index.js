@@ -3,6 +3,8 @@ function refreshWeather(response) {
 		"#todays-weather-temperature"
 	);
 	let temperature = Math.round(response.data.temperature.current);
+	let cityElement = document.querySelector("#weather-app-city");
+	cityElement.innerHTML = response.data.city;
 	todayTemperatureElement.innerHTML = temperature;
 }
 
@@ -22,3 +24,5 @@ function handleSearchSubmit(event) {
 
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", handleSearchSubmit);
+
+searchCity("Chesterfield");

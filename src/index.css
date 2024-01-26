@@ -42,7 +42,7 @@ header {
 }
 .weather-app-city {
 	margin: 0;
-	font-size: 68px;
+	font-size: 50px;
 	font-weight: 700;
 	padding-bottom: 50px;
 }
@@ -59,7 +59,7 @@ header {
 }
 .todays-weather-temperature {
 	margin: 0;
-	font-size: 60px;
+	font-size: 50px;
 	font-weight: 700;
 }
 main {
