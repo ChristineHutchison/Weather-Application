@@ -48,6 +48,9 @@ header {
 	font-size: 20px;
 	font-weight: 300;
 }
+.todays-weather-icon {
+	font-size: 100px;
+}
 .todays-weather-temperature {
 	margin: 0;
 	font-size: 60px;
