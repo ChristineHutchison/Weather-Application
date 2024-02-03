@@ -46,11 +46,13 @@ header {
 	font-size: 40px;
 	font-weight: 700;
 	padding-bottom: 50px;
+	opacity: 0.8;
 }
 .todays-weather-data {
 	font-size: 20px;
 	font-weight: 300;
 	padding-bottom: 20px;
+	opacity: 0.8;
 }
 .todays-weather-data strong {
 	color: teal;
@@ -65,24 +67,24 @@ header {
 	font-size: 60px;
 	font-weight: 700;
 	line-height: 150px;
+	opacity: 0.8;
 }
-
-.future-forecast-container {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	list-style-type: none;
-	font-size: 20px;
-	font-weight: 300;
-	margin: 10px 0;
-	padding: 10px;
+.weather-forecast {
+	margin-top: 20px;
+	margin-bottom: 20px;
 	text-align: center;
 }
-.future-forecast-container strong {
+.weather-forecast-date {
+	font-size: 16px;
 	color: teal;
+	font-weight: 600;
+	opacity: 0.7;
 }
-#future-forecast-icon {
-	font-size: 50px;
+.weather-forecast-temperature {
+	font-size: 13px;
+}
+.weather-forecast-temperature-min {
+	opacity: 0.5;
 }
 footer {
 	border-top: 1px solid #f5f5f5;
