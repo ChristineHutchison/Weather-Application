@@ -73,6 +73,8 @@ header {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	text-align: center;
+	display: flex;
+	justify-content: space-around;
 }
 .weather-forecast-date {
 	font-size: 16px;
